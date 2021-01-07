@@ -1,2 +1,14 @@
-# eda_fev1
-Exploratory data analysis of FEV1 in Topeka, Kansas
+# README
+
+Data contained in this repository is sourced from the [ALA](https://rdrr.io/rforge/ALA/) package. A simple data dictionary is as follows:
+
+| Variable | Type | Description | Units |
+| :------  | :--- | :---------- | :---- |
+| `id` | Factor | ID label for each participant | None | 
+| `age` | Numeric | Age of participant at time of measurement | years | 
+| `height` | Numeric | Height of participant at time of measurement | metres | 
+| `FEV1` | Numeric | Spirometry measurement of lung function, forced exhaled volume in first second | litres |
+
+Data are originally from [Dockery et al. (1983)]; this is a random sample of 300 girls living in Topeka, Kansas.
+
+This data, and script file(s), are provided for students in the MSc in Health Data Science module **2491 - Data Challenge** for the purposes of learning exploratory data analysis.
