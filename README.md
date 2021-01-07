@@ -9,6 +9,6 @@ Data contained in this repository is sourced from the [ALA](https://rdrr.io/rfor
 | `height` | Numeric | Height of participant at time of measurement | metres | 
 | `FEV1` | Numeric | Spirometry measurement of lung function, forced exhaled volume in first second | litres |
 
-Data are originally from [Dockery et al. (1983)]; this is a random sample of 300 girls living in Topeka, Kansas.
+Data are originally from [Dockery et al. (1983)](https://doi.org/10.1164/arrd.1983.128.3.405); this is a random sample of 300 girls living in Topeka, Kansas.
 
 This data, and script file(s), are provided for students in the MSc in Health Data Science module **2491 - Data Challenge** for the purposes of learning exploratory data analysis.
