@@ -11,4 +11,4 @@ Data contained in this repository is sourced from the [ALA](https://rdrr.io/rfor
 
 Data are originally from [Dockery et al. (1983)](https://doi.org/10.1164/arrd.1983.128.3.405); this is a random sample of 300 girls living in Topeka, Kansas.
 
-This data, and script file(s), are provided for students in the MSc in Health Data Science module **2491 - Data Challenge** for the purposes of learning exploratory data analysis.
+This data, and script file(s), are provided for students in the MSc in Health Data Science module **2491 - Data Challenge** for the purposes of learning exploratory data analysis and for those in **2031 - Introduction to Statistical Computing** for learning ggplot2.
