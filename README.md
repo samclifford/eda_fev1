@@ -1,5 +1,14 @@
 # README
 
+```                                                                             
+                     _/                    _/_/                          _/   
+      _/_/      _/_/_/    _/_/_/        _/        _/_/    _/      _/  _/_/    
+   _/_/_/_/  _/    _/  _/    _/      _/_/_/_/  _/_/_/_/  _/      _/    _/     
+  _/        _/    _/  _/    _/        _/      _/          _/  _/      _/      
+   _/_/_/    _/_/_/    _/_/_/        _/        _/_/_/      _/      _/_/_/   
+                            _/_/_/_/                                           
+```
+
 Data contained in this repository is sourced from the [ALA](https://rdrr.io/rforge/ALA/) package. A simple data dictionary is as follows:
 
 | Variable | Type | Description | Units | Type | 
