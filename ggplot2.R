@@ -10,15 +10,13 @@ library(data.table)
 # Activity 2
 # load in the data set, ensuring that `id` is read as a factor
 fev1 <- fread("fev1.csv", colClasses = list(factor = 'id'))
+fev1 <- fev1[ , id := fct_inorder(id)]
 
-# sample individuals who have more than 6 observations
-fev1_sampled <- fev1[ , id := fct_inorder(id)
-                      ][, list(data=list(.SD)), by=id
-                        ][, n:= lapply(data, nrow)
-                          ][n > 6
-                            ][id %in% sample(id, 20)
-                              ][, id := fct_drop(id)
-                                ][, .(id, n)]
+fev1_sampled <- fev1[ , .N, by = id
+                     ][N > 6
+                       ][id %in% sample(id, 20)
+                         ][ , id := fct_drop(id)
+                           ][ , .(id, N)]
 
 ... <- merge(fev1, fev1_sampled)
 
